@@ -1,0 +1,15 @@
+{
+  "name": "tomasvinduska/console",
+  "description": "Symfony Console for Nette Framework",
+  "type": "library",
+  "require": {
+    "php": ">=7.4",
+    "symfony/console": "^5.0",
+    "nette/di": "^3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mafi\\Console\\": "src/"
+    }
+  }
+}
